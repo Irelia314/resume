@@ -225,7 +225,7 @@ export const Template2: React.FC<Props> = props => {
         ) : null}
         {!!_.trim(_.join(aboutme, '')) && (
           <Wrapper
-            title={<FormattedMessage id="自我介绍" />}
+            title={<FormattedMessage id="个人技能" />}
             className="section section-aboutme"
             color={theme.color}
           >
